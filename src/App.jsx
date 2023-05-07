@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import 
-import StarshipDetails from './pages/StarshipDetails/StarshipDetails'
+import Starships from './pages/Ships/Starships'
+import StarshipDetails from './components/ShipDetails/StarshipDetails'
 
 import './App.css'
 

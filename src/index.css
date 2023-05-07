@@ -15,12 +15,12 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-weight: bold;
+  color: #000000;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #020efc;
 }
 
 body {
@@ -29,6 +29,28 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.starship-container {
+  margin: 10px;
+  border: 2px solid rgb(250, 64, 250);
+  border-radius: 5px;
+  padding: 1em;
+  grid-gap: 20px;
+  font-size: 20px;
+  background-color: rgb(250, 64, 250);
+  color: #1a1a1a;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.return {
+  border-radius: 2px;
+  border-color: #000000;
 }
 
 h1 {

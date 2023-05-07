@@ -24,16 +24,18 @@ const Starships = () => {
   return (
     <>
       <h1>Star Ships</h1>
-    {starships.results.map((ship) => {
-      const starshipId = extractIdFromUrl(ship.url)
+      <div className="container">
+    {starships.results.map((starship) => {
+      const starshipId = extractIdFromUrl(starship.url)
       return (
-        <div key={starship.name}>
+        <div className='starship-container' key={starship.name}>
           <Link to={`/starships/${starshipId}`}>{starship.name}</Link>
         </div>
       )
     })}
+    </div>
     </>
   )
 }
 
-export default Ships
+export default Starships
