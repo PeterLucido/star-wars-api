@@ -9,6 +9,8 @@ const Starships = () => {
     const regex = /\/(\d+)\//
     const match = url.match(regex)
     return match ? match[1] : null
+    // I understand that there is a better way to do this but this is the original way that i figured it out.
+
   }
 
   useEffect(() => {
